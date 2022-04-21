@@ -1,1 +1,34 @@
-List mens items here
+{
+   "mens": [
+     {
+       "ItemType": "Shirt",
+       "ItemName": "Mega Performance Jersey",
+       "Price": "$15.00"
+     },
+     {
+       "ItemType": "Shoes",
+       "ItemName": "Triple Double 10's",
+       "Price": "$55.00"
+     },
+     {
+       "ItemType": "Shirt",
+       "ItemName": "Sleeveless Jersey",
+       "Price": "$16.00"
+     },
+     {
+       "ItemType": "Ball",
+       "ItemName": "Kid's Ball",
+       "Price": "$12.00"
+     },
+     {
+       "ItemType": "Shorts",
+       "ItemName": "Slam Dunk Shorts",
+       "Price": "$20.00"
+     },
+     {
+       "ItemType": "Ball",
+       "ItemName": "Performance Ball",
+       "Price": "$25.00"
+     }
+   ]
+}
