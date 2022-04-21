@@ -16,8 +16,8 @@
        "Price": "$16.00"
      },
      {
-       "ItemType": "Ball",
-       "ItemName": "Kid's Ball",
+       "ItemType": "Shorts",
+       "ItemName": "Backboard Shorts",
        "Price": "$12.00"
      },
      {
@@ -26,9 +26,9 @@
        "Price": "$20.00"
      },
      {
-       "ItemType": "Ball",
-       "ItemName": "Performance Ball",
-       "Price": "$25.00"
+       "ItemType": "Shoes",
+       "ItemName": "Three point 3's",
+       "Price": "$45.00"
      }
    ]
 }

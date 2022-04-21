@@ -16,3 +16,7 @@
     grid-row-start: 1;
     grid-row-end: 4;
 }
+
+#shirtButton input, #shortsButton input, #shoesButton input{
+    display:none
+}
