@@ -1,0 +1,18 @@
+#headlinePic {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#headlineText {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-220%, -50%);
+    transform: translate(-220%, -50%);
+    background-color: seashell;
+}
