@@ -1,3 +1,7 @@
+body {
+    background-color: seashell;
+}
+
 #headlinePic {
     margin: 0;
     position: absolute;
