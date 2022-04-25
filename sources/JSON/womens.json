@@ -1,1 +1,34 @@
-List womens items here
+{
+  "womens": [
+    {
+      "ItemType": "Shirt",
+      "ItemName": "W Mega Performance Jersey",
+      "Price": "$15.00"
+    },
+    {
+      "ItemType": "Shoes",
+      "ItemName": "Triple Double 10's",
+      "Price": "$55.00"
+    },
+    {
+      "ItemType": "Shirt",
+      "ItemName": "W Sleeveless Jersey",
+      "Price": "$16.00"
+    },
+    {
+      "ItemType": "Shorts",
+      "ItemName": "3\" Backboard Shorts",
+      "Price": "$12.00"
+    },
+    {
+      "ItemType": "Shorts",
+      "ItemName": "3\" Slam Dunk Shorts",
+      "Price": "$20.00"
+    },
+    {
+      "ItemType": "Shoes",
+      "ItemName": "Three point 3's",
+      "Price": "$45.00"
+    }
+  ]
+}

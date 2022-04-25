@@ -1,0 +1,24 @@
+{
+  "gear": [
+    {
+      "ItemType": "Ball",
+      "ItemName": "Professional Ball",
+      "Price": "$55.00"
+    },
+    {
+      "ItemType": "Hoop",
+      "ItemName": "Backyard Hoop",
+      "Price": "$145.00"
+    },
+    {
+      "ItemType": "Hoop",
+      "ItemName": "Over-the-door Hoop",
+      "Price": "$16.00"
+    },
+    {
+      "ItemType": "Ball",
+      "ItemName": "Kid's Ball",
+      "Price": "$12.00"
+    }
+  ]
+}
