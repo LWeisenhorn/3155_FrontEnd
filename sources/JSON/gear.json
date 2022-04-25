@@ -3,22 +3,26 @@
     {
       "ItemType": "Ball",
       "ItemName": "Professional Ball",
-      "Price": "$55.00"
+      "Price": "$55.00",
+      "img": "../sources/img/ballForSale.jpeg"
     },
     {
       "ItemType": "Hoop",
       "ItemName": "Backyard Hoop",
-      "Price": "$145.00"
+      "Price": "$145.00",
+      "img": "../sources/img/hoop.jpeg"
     },
     {
       "ItemType": "Hoop",
       "ItemName": "Over-the-door Hoop",
-      "Price": "$16.00"
+      "Price": "$16.00",
+      "img": "../sources/img/doorHoop.jpeg"
     },
     {
       "ItemType": "Ball",
       "ItemName": "Kid's Ball",
-      "Price": "$12.00"
+      "Price": "$12.00",
+      "img": "../sources/img/ballForSale.jpeg"
     }
   ]
 }

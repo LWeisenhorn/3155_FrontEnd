@@ -19,7 +19,7 @@ $.ajax({
             for (let i = 0; i < v.length; i++) {
                 let className = (v[i]['ItemType']);
                 document.getElementById("grid-container").innerHTML +=
-                    "<div class=" + className + "><h3>" + "Item Type: " + (v[i]['ItemType']) + "</h3><h4>" + "Item Name: " + (v[i]['ItemName']) + "</h4><p>" + "Price: " + (v[i]['Price']) + "</p><button>Add to cart</button></div>";
+                    "<div class=" + className + "><h3>" + "Item Type: " + (v[i]['ItemType']) + "</h3><h4>" + "Item Name: " + (v[i]['ItemName']) + "</h4><img src = \"" + (v[i]['img']) + "\" width='300'><p>" + "Price: " + (v[i]['Price']) + "</p><button>Add to cart</button></div>";
             }
 
 

@@ -3,32 +3,38 @@
     {
       "ItemType": "Shirt",
       "ItemName": "W Mega Performance Jersey",
-      "Price": "$15.00"
+      "Price": "$15.00",
+      "img": "../sources/img/wJersey.jpeg"
     },
     {
       "ItemType": "Shoes",
       "ItemName": "Triple Double 10's",
-      "Price": "$55.00"
+      "Price": "$55.00",
+      "img": "../sources/img/10sShoes.jpeg"
     },
     {
       "ItemType": "Shirt",
       "ItemName": "W Sleeveless Jersey",
-      "Price": "$16.00"
+      "Price": "$16.00",
+      "img": "../sources/img/jersey.jpeg"
     },
     {
       "ItemType": "Shorts",
       "ItemName": "3\" Backboard Shorts",
-      "Price": "$12.00"
+      "Price": "$12.00",
+      "img": "../sources/img/3backboard.jpeg"
     },
     {
       "ItemType": "Shorts",
       "ItemName": "3\" Slam Dunk Shorts",
-      "Price": "$20.00"
+      "Price": "$20.00",
+      "img": "../sources/img/3slamDunk.jpeg"
     },
     {
       "ItemType": "Shoes",
       "ItemName": "Three point 3's",
-      "Price": "$45.00"
+      "Price": "$45.00",
+      "img": "../sources/img/3sShoes.jpeg"
     }
   ]
 }
