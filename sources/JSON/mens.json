@@ -4,37 +4,43 @@
        "ItemType": "Shirt",
        "ItemName": "Mega Performance Jersey",
        "Price": "$15.00",
-       "img": "../sources/img/shirt.jpeg"
+       "img": "../sources/img/shirt.jpeg",
+       "id": "pJersey"
      },
      {
        "ItemType": "Shoes",
        "ItemName": "Triple Double 10's",
        "Price": "$55.00",
-       "img": "../sources/img/10sShoes.jpeg"
+       "img": "../sources/img/10sShoes.jpeg",
+       "id": "TD10"
      },
      {
        "ItemType": "Shirt",
        "ItemName": "Sleeveless Jersey",
        "Price": "$16.00",
-       "img": "../sources/img/jersey.jpeg"
+       "img": "../sources/img/jersey.jpeg",
+       "id": "sJersey"
      },
      {
        "ItemType": "Shorts",
        "ItemName": "Backboard Shorts",
        "Price": "$12.00",
-       "img": "../sources/img/backboardShorts.jpeg"
+       "img": "../sources/img/backboardShorts.jpeg",
+       "id": "bShorts"
      },
      {
        "ItemType": "Shorts",
        "ItemName": "Slam Dunk Shorts",
        "Price": "$20.00",
-       "img": "../sources/img/slamDunkShorts.jpeg"
+       "img": "../sources/img/slamDunkShorts.jpeg",
+       "id": "sdShorts"
      },
      {
        "ItemType": "Shoes",
        "ItemName": "Three point 3's",
        "Price": "$45.00",
-       "img": "../sources/img/3sShoes.jpeg"
+       "img": "../sources/img/3sShoes.jpeg",
+       "id": "TP3"
      }
    ]
 }

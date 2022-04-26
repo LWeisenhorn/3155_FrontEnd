@@ -11,15 +11,16 @@ $.ajax({
         document.getElementById("title").innerHTML = "Men's Clothes"
         $.each(data, function (i, v) {
             document.getElementById("grid-container").innerHTML = "<div id='categories'>" +
-                "Categories" +
+                "<h2>Categories</h2>" +
                 "<br><label id='shirtButton'><input onchange='shirts()' type='checkbox'> Shirts</label>" +
-                "<br><label id='shortsButton'><input onchange='shorts()' type='checkbox'> Shorts</label>" +
-                "<br><label id='shoesButton'><input onchange='shoes()' type='checkbox'> Shoes</label></div>";
+                "<br><br><label id='shortsButton'><input onchange='shorts()' type='checkbox'> Shorts</label>" +
+                "<br><br><label id='shoesButton'><input onchange='shoes()' type='checkbox'> Shoes</label></div>";
 
             for (let i = 0; i < v.length; i++) {
                 let className = (v[i]['ItemType']);
+                let buttonName = (v[i]['id']) + "Button";
                 document.getElementById("grid-container").innerHTML +=
-                    "<div class=" + className + "><h4>" + (v[i]['ItemName']) + "</h4><img src = \"" + (v[i]['img']) + "\" width='300'><p>" + "Price: " + (v[i]['Price']) + "</p><button>Add to cart</button></div>";
+                    "<div class=" + className + "><h4>" + (v[i]['ItemName']) + "</h4><img src = \"" + (v[i]['img']) + "\" width='400'><p>" + "Price: " + (v[i]['Price']) + "</p><button id=" + buttonName + ">Add to cart</button></div>";
             }
 
 
@@ -49,27 +50,27 @@ function shoes() {
 function categorySelector() {
     if(shirtCounter % 2) {
         $('.Shirt').show();
-        document.getElementById("shirtButton").style.backgroundColor="grey";
+        document.getElementById("shirtButton").style.borderBottomColor="red";
     }
     else {
         $('.Shirt').hide();
-        document.getElementById("shirtButton").style.backgroundColor="rgba(0, 0, 0, 0%)";
+        document.getElementById("shirtButton").style.borderBottomColor="transparent";
     }
     if(shortsCounter % 2) {
         $('.Shorts').show();
-        document.getElementById("shortsButton").style.backgroundColor="grey";
+        document.getElementById("shortsButton").style.borderBottomColor="red";
     }
     else {
         $('.Shorts').hide();
-        document.getElementById("shortsButton").style.backgroundColor="rgba(0, 0, 0, 0%)";
+        document.getElementById("shortsButton").style.borderBottomColor="transparent";
     }
     if(shoesCounter % 2) {
         $('.Shoes').show();
-        document.getElementById("shoesButton").style.backgroundColor="grey";
+        document.getElementById("shoesButton").style.borderBottomColor="red";
     }
     else {
         $('.Shoes').hide();
-        document.getElementById("shoesButton").style.backgroundColor="rgba(0, 0, 0, 0%)";
+        document.getElementById("shoesButton").style.borderBottomColor="transparent";
     }
     if(!(shirtCounter % 2) && !(shortsCounter % 2) && !(shoesCounter % 2)) {
         $('.Shirt').show();

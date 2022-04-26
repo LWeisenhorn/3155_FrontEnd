@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Home</title>
     <link href="../css/main.css" rel="stylesheet">
-    <script src="../js/menShop.js"></script>
+    <script src="../js/cart.js"></script>
 </head>
 <body>
     <img src="../sources/img/logo.png" alt="basketball" width="100px" style="position: absolute">
@@ -13,20 +13,27 @@
         <a href="womenShop.html">Women</a>
         <a href="menShop.html">Men</a>
         <a href="gearShop.html">Gear</a>
+        <div id="rightNav">
+            <a href="Cart.html">Cart</a>
+
+            <!-- TODO make input box pop up with function and event listener-->
+            <div id="searchDiv">
+                <a id="searchBar" onclick="searchSwap()">Search</a>
+            </div>
+
+        </div>
     </nav>
 
-    <!-- TODO
-    - add search bar
-    - add cart button
-    -->
+
     <div id="headlinePic">
         <img src="../sources/img/steph.jpeg" alt="Stephen Curry" width="1300px">
     </div>
     <div id="headlineText">
         <h1>New Summer Styles Released</h1>
-        <p>Shop men's</p>
-        <p>Shop women's</p>
-        <p>Shop gear</p>
+        <a href="menShop.html">Shop Men's</a><br><br>
+        <a href="womenShop.html">Shop Women's</a><br><br>
+        <a href="gearShop.html">Shop Gear</a><br><br>
     </div>
+    <h3 id="pictureCaption"><i>Our sponsor, Stephen Curry, rushing the ball</i></h3>
 </body>
 </html>
