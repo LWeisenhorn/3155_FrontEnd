@@ -71,3 +71,10 @@ nav > a:hover, #rightNav > a:hover, #searchDiv > a:hover{
     margin-left: 1240px;
     font-weight: normal;
 }
+
+#mainBody {
+    margin-top: 150px;
+    text-align: center;
+    padding-right: 300px;
+    padding-left: 300px;
+}
