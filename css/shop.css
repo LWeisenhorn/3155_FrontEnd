@@ -1,23 +1,29 @@
+body {
+    background-color: rgba(0, 0, 0, 3%);
+}
 #grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 200px 575px 575px;
     gap: 10px;
     padding: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
-#grid-container > div {
-    background-color: rgba(0, 0, 0, 10%);
+#grid-container {
+    background-color: transparent;
     text-align: center;
-    padding: 80px 0;
     font-size: 20px;
 }
 
 #categories {
+    background-color: white;
     grid-row-start: 1;
     grid-row-end: 4;
 }
 
 #title {
+    padding-top: 60px;
     font-size: 40px;
     padding-left: 15px;
 }
@@ -36,7 +42,15 @@
     border-bottom: 3px solid red;
 }
 
-
+#topBar {
+    padding-left: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-bottom: 20px;
+    background-color: white;
+}
 
 nav {
     padding-left: 100px;
@@ -51,6 +65,30 @@ nav > a {
     margin-left: 40px;
 }
 
-nav > a:hover {
+nav > a:hover, #rightNav > a:hover, #searchDiv > a:hover{
     border-bottom: 3px solid black;
+}
+
+#rightNav, #searchDiv {
+    float: right;
+    padding-right: 60px;
+}
+
+#rightNav > a, #searchDiv > a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+#productName {
+    float: left;
+    margin-right: 0;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#productInfo {
+    float: right;
+    margin-left: 0;
+    margin-right: 100px;
 }

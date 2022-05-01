@@ -18,6 +18,14 @@
     background-color: white;
 }
 
+#topBar {
+    padding-left: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
 nav {
     padding-left: 100px;
     padding-top: 30px;
@@ -36,6 +44,7 @@ nav > a:hover, #rightNav > a:hover, #searchDiv > a:hover{
 }
 
 #rightNav, #searchDiv {
+    padding-right: 60px;
     float: right;
 }
 
@@ -58,7 +67,7 @@ nav > a:hover, #rightNav > a:hover, #searchDiv > a:hover{
 }
 
 #pictureCaption {
-    margin-top: 800px;
+    margin-top: 900px;
     margin-left: 1240px;
     font-weight: normal;
 }

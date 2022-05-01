@@ -4,7 +4,7 @@
        "ItemType": "Shirt",
        "ItemName": "Mega Performance Jersey",
        "Price": "$15.00",
-       "img": "../sources/img/shirt.jpeg",
+       "img": "../sources/img/shirt.png",
        "id": "pJersey"
      },
      {
@@ -32,7 +32,7 @@
        "ItemType": "Shorts",
        "ItemName": "Slam Dunk Shorts",
        "Price": "$20.00",
-       "img": "../sources/img/slamDunkShorts.jpeg",
+       "img": "../sources/img/slamDunkShorts.png",
        "id": "sdShorts"
      },
      {

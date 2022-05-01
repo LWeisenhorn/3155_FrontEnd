@@ -6,15 +6,26 @@
     <link href="../css/shop.css" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <script src="../js/gearShop.js"></script>
+    <script src="../js/cart.js"></script>
 </head>
 <body>
-    <img src="../sources/img/logo.png" alt="basketball" width="100px" style="position: absolute">
-    <nav>
-        <a href="home.html">Home</a>
-        <a href="womenShop.html">Women</a>
-        <a href="menShop.html">Men</a>
-        <a href="gearShop.html">Gear</a>
-    </nav>
+    <div id="topBar">
+        <img src="../sources/img/logo.png" alt="basketball" width="100px" style="position: absolute">
+        <nav>
+            <a href="home.html">Home</a>
+            <a>About</a>
+            <a href="womenShop.html">Women</a>
+            <a href="menShop.html">Men</a>
+            <a href="gearShop.html">Gear</a>
+            <div id="rightNav">
+                <a href="Cart.html">Cart</a>
+                <div id="searchDiv">
+                    <a id="searchBar" onclick="searchSwap()">Search</a>
+                </div>
+
+            </div>
+        </nav>
+    </div>
 
     <h1 id="title">Loading...</h1>
 

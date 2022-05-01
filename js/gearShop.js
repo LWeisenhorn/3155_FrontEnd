@@ -8,17 +8,18 @@ $.ajax({
         alert("Error: " + xhr.status + " - " + error);
     },
     success: function (data) {
-        document.getElementById("title").innerHTML = "Basketball Gear"
+        document.getElementById("title").innerHTML = "";
         $.each(data, function (i, v) {
             document.getElementById("grid-container").innerHTML = "<div id='categories'>" +
-                "Categories" +
-                "<br><label id='ballButton'><input onchange='ball()' type='checkbox'> Balls</label>" +
-                "<br><label id='hoopButton'><input onchange='hoop()' type='checkbox'> Hoops</label></div>";
+                "<h2>Basketball Gear</h2><h3>Categories</h3>" +
+                "<br><label id='ballButton'><input onchange='ball()' type='checkbox'>Balls</label>" +
+                "<br><br><label id='hoopButton'><input onchange='hoop()' type='checkbox'>Hoops</label></div>";
 
             for (let i = 0; i < v.length; i++) {
                 let className = (v[i]['ItemType']);
+                let buttonName = (v[i]['id']) + "Button";
                 document.getElementById("grid-container").innerHTML +=
-                    "<div class=" + className + "><h4>" + (v[i]['ItemName']) + "</h4><img src = \"" + (v[i]['img']) + "\" width='300'><p>" + "Price: " + (v[i]['Price']) + "</p><button>Add to cart</button></div>";
+                    "<div class=" + className + " style=\"padding-bottom: 75px\"></h4><img src = \"" + (v[i]['img']) + "\" width='400' alt='" + (v[i]['ItemName']) + "'><div><h4 id='productName'>" + (v[i]['ItemName']) + "</h4><p id='productInfo'>" + (v[i]['Price']) + "</p></div></div>";
             }
 
 

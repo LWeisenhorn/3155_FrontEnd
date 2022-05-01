@@ -8,10 +8,10 @@ $.ajax({
         alert("Error: " + xhr.status + " - " + error);
     },
     success: function (data) {
-        document.getElementById("title").innerHTML = "Men's Clothes"
+        document.getElementById("title").innerHTML = "";
         $.each(data, function (i, v) {
             document.getElementById("grid-container").innerHTML = "<div id='categories'>" +
-                "<h2>Categories</h2>" +
+                "<h2>Men's Clothes</h2><h3>Categories</h3>" +
                 "<br><label id='shirtButton'><input onchange='shirts()' type='checkbox'> Shirts</label>" +
                 "<br><br><label id='shortsButton'><input onchange='shorts()' type='checkbox'> Shorts</label>" +
                 "<br><br><label id='shoesButton'><input onchange='shoes()' type='checkbox'> Shoes</label></div>";
@@ -20,7 +20,7 @@ $.ajax({
                 let className = (v[i]['ItemType']);
                 let buttonName = (v[i]['id']) + "Button";
                 document.getElementById("grid-container").innerHTML +=
-                    "<div class=" + className + "><h4>" + (v[i]['ItemName']) + "</h4><img src = \"" + (v[i]['img']) + "\" width='400'><p>" + "Price: " + (v[i]['Price']) + "</p><button id=" + buttonName + ">Add to cart</button></div>";
+                    "<div class=" + className + " style=\"padding-bottom: 75px\"></h4><img src = \"" + (v[i]['img']) + "\" width='400' alt='" + (v[i]['ItemName']) + "'><div><h4 id='productName'>" + (v[i]['ItemName']) + "</h4><p id='productInfo'>" + (v[i]['Price']) + "</p></div></div>";
             }
 
 
